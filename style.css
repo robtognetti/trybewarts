@@ -1,15 +1,14 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(50, 167, 145);
-}
-
-.trybewarts-login {
-  display: flex;
-}
-
 main {
   display: flex;
+}
+
+hr {
+  width: 100%;
+}
+
+textarea {
+  width: 600px;
+  height: 75px;
 }
 
 #evaluation-form {
@@ -22,6 +21,16 @@ main {
   height: 500px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
 .form-row {
   display: flex;
   flex-direction: row;
@@ -32,4 +41,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.textarea {
+  display: flex;
 }
